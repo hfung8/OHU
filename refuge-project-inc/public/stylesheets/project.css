@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|EB+Garamond");
+
+#background {
+  height: 800px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/landscape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter:alpha(opacity=40);
+  opacity: 0.9;
+}
+
+body {
+  background-image: url("../images/dynamic-style/dynamic-style.png");
+  background-repeat: repeat;
+  background-size: 300px;
+}
+
+#jumping {
+  height: auto;
+  width: 55%;
+  text-align: center;
+  float:left;
+}
+
+.jumpingText::first-letter {
+  font-size:4em;
+  float:left;
+  line-height:80%;
+}
+
+.jumpingText {
+  line-height: 3;
+  font-size: 1.3em;
+  font-family: 'EB Garamond'; 
+}
+
+
+.laundryContainer {
+  clear: both;
+  float:right;
+}
+
+.mamaAndKidsContainer {
+  text-align:center;
+}
+
+.mamaAndKids {
+  height: 500px;
+  width: 800px;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.mamaAndKidsText::first-letter {
+  font-size:4em;
+  float:left;
+  line-height:80%;
+}
+
+.mamaAndKidsText {
+  line-height: 3;
+  font-size: 1.3em;
+  font-family: 'EB Garamond'; 
+}
+
+.mamaAndKidsReading {
+  height:500px;
+  width: 750px;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.rosetteAndEvanContainer {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+.missionAndCoreValuesH1 {
+  margin: auto;
+  text-align: center;
+  font-family: 'Barlow Condensed';
+  color: red;
+  padding: 7px; 
+  background-color:#e8dfcd;
+  border: solid 4px #b5a387;
+}
+
+.rAndE {
+  max-width: 100%;
+  height: auto;
+}
+
+.rAndELine {
+  border: 2px solid white;
+  width: 100%;
+  position: absolute;
+  top: 33px;
+}
+
+.rAndEMissionTitle {
+  font-family: 'Barlow Condensed';
+  margin: auto; 
+  text-align: center;
+  position: absolute;
+  top: 0px;
+  right: 50%;
+  color: white;
+}
+
+.rAndEMissionText {
+  position: absolute; 
+  top: 50px;
+  color: white;
+  font-family: 'EB Garamond';
+  font-size: 2em;
+  width: 100%;
+}
+
+.coreValuesContainer {
+  width: 1000px;
+  margin: auto;
+  text-align: center; 
+  background-color: white; 
+}
+
+.coreValuesTitle {
+  font-family: 'Barlow Condensed';
+
+}
+
+.coreValuesText {
+  width: 100%; 
+  font-family: 'EB Garamond';
+  font-size: 2em;
+}
+
+.coreValuesLine {
+  border: 2px solid; 
+}
+
+#laundry {
+  height: auto;
+  width: 45%;
+  float: right;
+  text-align: center;
+}
+
+.laundryText::first-letter {
+  font-size:4em;
+  float:left;
+  line-height:80%;
+}
+
+.laundryText {
+  line-height: 3;
+  font-size: 1.3em;
+  font-family: 'EB Garamond'; 
+}
+
+.kansimeContainer {
+  clear:both;
+  float:right;
+}
+
+.ugandasChildrenFutureContainer {
+  text-align: center;
+}
+
+
+#everyChild {
+  font-family: "Barlow Condensed";
+  background-color: #e8dfcd;
+  padding: 7px;
+  color: red;
+  margin-top:3px;
+  font-size: 2em;
+}
+
+#flowerGirls {
+  height: auto;
+  width: 45%;
+  float: left;
+}
+
+.flowerGirlsContainer {
+  margin-top: 0px; 
+
+}
+
+.ugandaChildren::first-letter {
+    font-size:4em;
+    float:left;
+    line-height:80%;
+}
+
+.ugandaChildren {
+  line-height: 3;
+  font-size: 1.3em;
+  font-family: 'EB Garamond'; 
+  margin: 0px;
+  padding: 0px;
+}
+
+.donate{
+  float: right;
+  margin-right: 300px;
+  padding: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #e8dfcd;
+  font-size: 1em;
+}
+
+.volunteer {
+  margin-top: 3px;
+  margin-left: 50px;
+  padding: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #b5a387;
+  font-size: 1em;
+}
+
+.titleDiscription {
+  color: white;
+  float: right;
+  margin-right: 300px;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+  color: white;
+  float: right;
+  margin-top: 250px;
+  margin-right: 300px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+  background: #e8dfcd;
+  height: 80px;
+  width: 100%;
+  border: 3px solid #b5a387
+}
+
+.navItems {
+  background-color:#e8dfcd;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#joinUs {
+  margin-right: 10px;
+}
+
+.kansime {
+  float: right;
+  width: 55%;
+  height: auto;
+}
+
+.kansimeText::first-letter {
+  font-size:4em;
+  float:left;
+  line-height:80%;
+}
+
+.kansimeText {
+  line-height: 3;
+  font-size: 1.3em;
+  font-family: 'EB Garamond'; 
+}
+
+#leftMenu {
+  margin-top: 133px;
+  background-color: #b5a387;
+  box-sizing: border-box;
+  padding: 30px 10px 10px 10px;
+  width: 100px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: -100px;
+  transition: left 0.5s;
+  opacity: 0.9;
+  height: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#leftMenu:hover {
+  left: 0;
+}
+
+h2 {
+  margin-top: 100px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* css transition attribute used to change color */
+#leftMenu a {
+  display: block;
+  margin: 5px 0;
+  padding: 8px 0;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.25s, color 0.25s;
+}
+
+#leftMenu a:hover {
+  background-color: maroon;
+  color: white;
+}
+
+#leftMenu li {
+  height: 55px; 
+}
+
+li {
+  float: left;
+}
+#menu {
+  border: 1px black; 
+  background-color: #e8dfcd;
+  padding: 10px;
+}
+
+#navMenu a {
+  display: block;
+  width: 60px;
+}
+
+.accordion {
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.accordion:hover {
+  background-color: maroon;
+  color: white;
+}
+.panel {
+  box-sizing: border-box;
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  text-decoration: none;
+  transition: max-height 0.2s ease-out;
+}
+
+#ohu {
+  height: 71px;
+  width: 90px; 
+  background-color: #e8dfcd;
+}
+
+#ohuImage {
+  height: 71px; 
+  width: 90px;
+  padding: 1px; 
+  background-color:#e8dfcd;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+#orphansOfHopeUganda {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #626852;
+  background-color: #e8dfcd;
+  font-size: 8px;
+  padding:14.5px;
+  margin-top: 3px;
+}
+.differenceButton {
+  padding: 10px; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1em;
+}
+
+.ourTeamTitle {
+  font-family: "Barlow Condensed";
+}
+
+.ourTeamText {
+  font-size: 2em; 
+  font-family: "EB Garamond";
+}
+
+.mamaJaneContainer {
+  display: inline-block;
+  position: relative;
+  height: 400px;
+  width: 300px;
+  text-align: center;
+  margin-left: 5%;
+}
+
+#mamaJane {
+  width: 100%;
+  height: auto;
+  left: 100px;
+}
+
+.mamaJaneText {
+  bottom: -60px;
+  font-family: 'EB Garamond';
+  font-size: 1.3em;
+}
+
+.kinalwayHerbertContainer {
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  margin-left: 40%;
+  text-align: center;
+}
+
+#kinalwayHerbert {
+  width: 100%;
+  height: auto;
+  left: 100px;
+}
+
+.kinalwayHerbertText {
+  bottom: -60px;
+  font-family: 'EB Garamond';
+  font-size: 1.3em;
+}
+
+.mamaJaneHerbertLine {
+  border: solid 1px black;
+  width: 25%;
+  margin-top: 5%;
+}
+
+.mamaJaneHerbertText {
+  font-family: 'EB Garamond';
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.teacherContainer {
+  width: 1000px;
+  height: auto;
+  margin: auto;
+}
+
+.teacher {
+  width: 100%;
+  height: auto;
+}
+
