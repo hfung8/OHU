@@ -535,3 +535,57 @@ li {
   font-size: 2em;
 }
 
+.redTreeText::first-letter {
+  font-size:1.3em;
+  float:left;
+  line-height:80%;
+}
+
+.ourOrphanageTitle {
+  font-family: 'Barlow Condensed';
+  background-color: #e8dfcd;
+  color: red;
+  border: solid 1.3px #b5a387;
+}
+
+.ourOrhpanageContainer {
+  width: 100%;
+  height: auto;
+}
+
+.ourOrphanageText {
+  font-family: "EB Garamond";
+  font-size: 2em;
+}
+
+.ourOrphanageText::first-letter {
+  font-size:1.3em;
+  float:left;
+  line-height:80%;
+}
+
+.threeGirlsSmiling {
+  width: 100%; 
+  height: auto; 
+}
+
+.brickBuildingContainer {
+  width: 100%; 
+  height: auto;
+}
+
+.brickBuilding { 
+  width: 100%;
+  height: auto;
+}
+
+.brickBuildingText {
+  font-family: "EB Garamond";
+  font-size: 2em;
+}
+
+.brickBuildingText::first-letter {
+  font-size:1.3em;
+  float:left;
+  line-height:80%;
+}
