@@ -286,11 +286,11 @@ nav {
   background-color: #b5a387;
   box-sizing: border-box;
   padding: 30px 10px 10px 10px;
-  width: 100px;
+  width: 155px;
   text-align: center;
   position: fixed;
   top: 0;
-  left: -100px;
+  left: -150px;
   transition: left 0.5s;
   opacity: 0.9;
   height: 100%;
@@ -336,6 +336,9 @@ li {
   border: 1px black; 
   background-color: #e8dfcd;
   padding: 10px;
+  left: 0px;
+  width: 150px;
+  border: solid 1.3px #b5a387;
 }
 
 #navMenu a {
@@ -359,12 +362,17 @@ li {
 }
 .panel {
   box-sizing: border-box;
-  padding: 0 18px;
+  padding: 0 25px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
   text-decoration: none;
   transition: max-height 0.2s ease-out;
+}
+
+.panelElement {
+  margin: 0px;
+  padding: 20px;
 }
 
 #ohu {
@@ -469,3 +477,30 @@ li {
   height: auto;
 }
 
+.whereWeWorkTitle {
+  font-family: 'Barlow Condensed';
+  background-color: #e8dfcd;
+  color: red;
+  border: solid 1.3px #b5a387;
+}
+
+.ugandaWorldContainer {
+  width: 100%;
+  height: auto;
+}
+
+.ugandaWorld {
+  width: 100%;
+  height: auto;
+}
+
+.ugandaText {
+  font-family: "EB Garamond";
+  font-size: 2em; 
+}
+
+.ugandaText::first-letter {
+  font-size:1.3em;
+  float:left;
+  line-height:80%;
+}
