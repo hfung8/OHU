@@ -505,4 +505,33 @@ li {
   line-height:80%;
 }
 
+.cowContainer {
+  width: 100%; 
+  height: auto;
+}
+
+.cow {
+  width: 100%;
+  height: auto;
+}
+
+.cowText {
+  font-family: 'EB Garamond';
+  font-size: 2em;
+}
+
+.redTreeCotnainer {
+  width: 100%; 
+  height: auto; 
+}
+
+.redTree {
+  width: 100%;
+  height: auto; 
+}
+
+.redTreeText {
+  font-family: 'EB Garamond';
+  font-size: 2em;
+}
 
