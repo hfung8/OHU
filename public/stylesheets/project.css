@@ -818,3 +818,41 @@ li {
   width: 100%;
   height: auto;
 }
+
+.healthPageTitle {
+  font-family: 'Barlow Condensed';
+  background-color: #e8dfcd;
+  border: solid 1px #b5a387;
+  color: red;
+}
+
+.kwagalaContainer {
+  width: 100%;
+  height: auto;
+}
+
+.kwagalaInjured {
+  width: 100%;
+  height: auto;
+}
+
+.kwagalaInjuredText {
+  font-family: 'EB Garamond';
+  font-size: 1.8em; 
+}
+
+.kwagalaInjuredText::first-letter {
+  font-size:4em;
+  float:left;
+  line-height:80%;
+}
+
+.brianContainer {
+  width: 100%;
+  height: auto;
+}
+
+.brianImage {
+  width: 100%;
+  height: auto;
+}
