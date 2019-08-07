@@ -301,7 +301,7 @@ nav {
   left: 0;
 }
 
-h2 {
+#menu {
   margin-top: 100px;
   position: fixed;
   top: 10px;
@@ -588,4 +588,157 @@ li {
   font-size:1.3em;
   float:left;
   line-height:80%;
+}
+.projectsAndImpactTitle {
+  font-family: 'Barlow Condensed';
+  background-color: #e8dfcd;
+  color: red;
+  border: solid 1.3px #b5a387;
+}
+
+.projectsAndImpactTitleTwo {
+  font-family: 'Barlow Condensed';
+  display: inline-block;
+}
+
+.projectsAndImpactTitleTwoContainer {
+  text-align: center;
+}
+
+.educationContainer {
+  width: 350px;
+  height: auto;
+  display: inline-block;
+  margin-left:5%;
+}
+
+.educationTitle {
+  font-family: 'Barlow Condensed';
+}
+.educationImage {
+  width: 100%;
+  height: 100%;
+}
+
+.educationTextContainer {
+  width: 400px;
+  height: auto;
+  display: inline-block;
+  margin-left: 23%;
+  text-align: center;
+}
+
+.educationTextTitle {
+  font-family: 'Barlow Condensed';
+}
+
+.educationLine {
+  width: 15%;
+  border: solid 1px black;
+}
+
+.educationText {
+  font-family: 'EB Garamond';
+  font-size: 1.8em;
+}
+
+.waterContainer {
+  width: 350px;
+  height: auto;
+  display: inline-block;
+  margin-left:5%;
+}
+
+.waterTitle {
+  font-family: 'Barlow Condensed';
+}
+
+.waterImage {
+  width: 100%;
+  height: 100%;
+}
+
+.waterTextContainer {
+  width: 400px;
+  height: auto;
+  display: inline-block;
+  margin-left: 23%;
+  text-align: center;
+}
+
+.waterLine {
+  width: 15%;
+  border: solid 1px black;
+}
+
+.waterText {
+  font-family: 'EB Garamond';
+  font-size: 1.8em;
+}
+
+.healthContainer {
+  width: 350px;
+  height: auto;
+  display: inline-block;
+  margin-left:5%;
+}
+
+.healthTitle {
+  font-family: 'Barlow Condensed';
+}
+.healthImage {
+  width: 100%;
+  height: 100%;
+}
+
+.healthTextContainer {
+  width: 400px;
+  height: auto;
+  display: inline-block;
+  margin-left: 23%;
+  text-align: center;
+}
+
+.healthLine {
+  width: 15%;
+  border: solid 1px black;
+}
+
+.healthText {
+  font-family: 'EB Garamond';
+  font-size: 1.8em;
+}
+
+.malnutritionContainer {
+  width: 350px;
+  height: auto;
+  display: inline-block;
+  margin-left:5%;
+}
+
+.malnutritionTitle {
+  font-family: 'Barlow Condensed';
+}
+
+.malnutritionImage {
+  width: 100%;
+  height: 100%;
+}
+
+.malnutritionTextContainer {
+  width: 450px;
+  height: auto;
+  display: inline-block;
+  margin-left: 23%;
+  text-align: center;
+}
+
+.malnutritionLine {
+  width: 15%;
+  border: solid 1px black;
+}
+
+.malnutritionText {
+  font-family: 'EB Garamond';
+  font-size: 1.8em;
 }
