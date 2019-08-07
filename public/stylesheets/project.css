@@ -520,7 +520,7 @@ li {
   font-size: 2em;
 }
 
-.redTreeCotnainer {
+.redTreeContainer {
   width: 100%; 
   height: auto; 
 }
@@ -741,4 +741,42 @@ li {
 .malnutritionText {
   font-family: 'EB Garamond';
   font-size: 1.8em;
+}
+
+.educationPageTitle {
+  font-family: 'Barlow Condensed';
+  background-color: #e8dfcd;
+  border: solid 1px #b5a387;
+  color: red;
+}
+
+.girlInClassContainer {
+  width: 100%;
+  height: auto;
+}
+
+.girlInClassImage {
+  width: 100%;
+  height: auto; 
+}
+
+.girlInClassText {
+  font-family: 'EB Garamond';
+  font-size: 1.8em;
+}
+
+.girlInClassText::first-letter {
+  font-size:4em;
+  float:left;
+  line-height:80%;
+}
+
+.mathClassContainer {
+  width: 100%;
+  height: auto;
+}
+
+.mathClassImage {
+  width: 100%;
+  height: auto;
 }
