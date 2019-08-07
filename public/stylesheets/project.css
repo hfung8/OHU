@@ -780,3 +780,41 @@ li {
   width: 100%;
   height: auto;
 }
+
+.waterPageTitle {
+  font-family: 'Barlow Condensed';
+  background-color: #e8dfcd;
+  border: solid 1px #b5a387;
+  color: red;
+}
+
+.girlsCarryingWaterContainer {
+  width: 100%;
+  height: auto;
+}
+
+.girlsCarryingWater {
+  width: 100%;
+  height: auto; 
+}
+
+.girlsCarryingWaterText {
+  font-family: 'EB Garamond';
+  font-size: 1.8em;
+}
+
+.girlsCarryingWaterText::first-letter {
+  font-size:4em;
+  float:left;
+  line-height:80%;
+}
+
+.schoolBoyContainer {
+  width: 100%;
+  height: auto;  
+}
+
+.schoolBoyImage {
+  width: 100%;
+  height: auto;
+}
