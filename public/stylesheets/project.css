@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|EB+Garamond");
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|Barlow");
 
 #background {
   height: 800px;
@@ -8,14 +8,17 @@
   background-image: url("../images/landscape.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  filter: alpha(opacity=40);
-  opacity: 0.9;
+  /* filter: alpha(opacity=40);
+  opacity: 0.9; */
+  box-shadow: 0 3000px rgba(13, 181, 187, 0.5) inset;
 }
 
+
 body {
-  background-image: url("../images/dynamic-style/dynamic-style.png");
+  /* background-image: url("../images/dynamic-style/dynamic-style.png");
   background-repeat: repeat;
-  background-size: 300px;
+  background-size: 300px; */
+  background-color: white;
 }
 
 #jumping {
@@ -34,7 +37,7 @@ body {
 .jumpingText {
   line-height: 3;
   font-size: 1.3em;
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
 }
 
 
@@ -64,7 +67,7 @@ body {
 .mamaAndKidsText {
   line-height: 3;
   font-size: 1.3em;
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
 }
 
 .mamaAndKidsReading {
@@ -88,8 +91,8 @@ body {
   font-family: 'Barlow Condensed';
   color: red;
   padding: 7px;
-  background-color: #e8dfcd;
-  border: solid 4px #b5a387;
+  background-color: #0db5bb;
+  border: solid 4px white;
 }
 
 .rAndE {
@@ -118,7 +121,7 @@ body {
   position: absolute;
   top: 50px;
   color: white;
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 2em;
   width: 100%;
 }
@@ -137,7 +140,7 @@ body {
 
 .coreValuesText {
   width: 100%;
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 2em;
 }
 
@@ -161,7 +164,7 @@ body {
 .laundryText {
   line-height: 3;
   font-size: 1.3em;
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
 }
 
 .kansimeContainer {
@@ -176,9 +179,9 @@ body {
 
 #everyChild {
   font-family: "Barlow Condensed";
-  background-color: #e8dfcd;
+  background-color: #1d1145;
   padding: 7px;
-  color: red;
+  color: white;
   margin-top: 3px;
   font-size: 2em;
 }
@@ -203,7 +206,7 @@ body {
 .ugandaChildren {
   line-height: 3;
   font-size: 1.3em;
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   margin: 0px;
   padding: 0px;
 }
@@ -213,16 +216,16 @@ body {
   margin-right: 300px;
   padding: 16px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #e8dfcd;
+  background-color: white;
   font-size: 1em;
 }
 
 .volunteer {
   margin-top: 3px;
-  margin-left: 50px;
+  margin-left: 10px;
   padding: 16px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #b5a387;
+  background-color: white;
   font-size: 1em;
 }
 
@@ -247,18 +250,30 @@ p {
 }
 
 nav {
-  background: #e8dfcd;
+  background: #1d1145;
   height: 80px;
   width: 100%;
-  border: 3px solid #b5a387
+  border: 3px solid white;
 }
 
 .navItems {
-  background-color: #e8dfcd;
+  background-color: #1d1145;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
+.navItems ul {
+  display: inline;
+}
+
+.accordion li {
+  float: left;
+}
+
+/* .navItems a {
+  float: left; 
+} */
 
 #joinUs {
   margin-right: 10px;
@@ -279,18 +294,17 @@ nav {
 .kansimeText {
   line-height: 3;
   font-size: 1.3em;
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
 }
 
 #leftMenu {
-  margin-top: 133px;
-  background-color: #b5a387;
+  background-color: #1d1145;
   box-sizing: border-box;
   padding: 30px 10px 10px 10px;
   width: 155px;
   text-align: center;
-  position: fixed;
-  top: 0;
+  position: fixed; 
+  /* top: 0; */
   left: -150px;
   transition: left 0.5s;
   opacity: 0.9;
@@ -336,7 +350,7 @@ li {
 
 #menu {
   border: 1px black;
-  background-color: #e8dfcd;
+  background-color: white;
   padding: 10px;
   left: 0px;
   width: 150px;
@@ -381,14 +395,14 @@ li {
 #ohu {
   height: 71px;
   width: 90px;
-  background-color: #e8dfcd;
+  background-color: white;
 }
 
 #ohuImage {
   height: 71px;
   width: 90px;
   padding: 1px;
-  background-color: #e8dfcd;
+  background-color: white;
   margin-left: 3px;
   margin-top: 3px;
 }
@@ -396,7 +410,7 @@ li {
 #orphansOfHopeUganda {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #626852;
-  background-color: #e8dfcd;
+  background-color: white;
   font-size: 8px;
   padding: 14.5px;
   margin-top: 3px;
@@ -414,7 +428,7 @@ li {
 
 .ourTeamText {
   font-size: 2em;
-  font-family: "EB Garamond";
+  font-family: "Barlow";
 }
 
 .mamaJaneContainer {
@@ -434,7 +448,7 @@ li {
 
 .mamaJaneText {
   bottom: -60px;
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 1.3em;
 }
 
@@ -454,7 +468,7 @@ li {
 
 .kinalwayHerbertText {
   bottom: -60px;
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 1.3em;
 }
 
@@ -465,7 +479,7 @@ li {
 }
 
 .mamaJaneHerbertText {
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   text-align: center;
   font-size: 1.3em;
 }
@@ -499,7 +513,7 @@ li {
 }
 
 .ugandaText {
-  font-family: "EB Garamond";
+  font-family: "Barlow";
   font-size: 2em;
 }
 
@@ -520,7 +534,7 @@ li {
 }
 
 .cowText {
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 2em;
 }
 
@@ -535,7 +549,7 @@ li {
 }
 
 .redTreeText {
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 2em;
 }
 
@@ -558,7 +572,7 @@ li {
 }
 
 .ourOrphanageText {
-  font-family: "EB Garamond";
+  font-family: "Barlow";
   font-size: 2em;
 }
 
@@ -584,7 +598,7 @@ li {
 }
 
 .brickBuildingText {
-  font-family: "EB Garamond";
+  font-family: "Barlow";
   font-size: 2em;
 }
 
@@ -644,7 +658,7 @@ li {
 }
 
 .educationText {
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 1.8em;
 }
 
@@ -678,7 +692,7 @@ li {
 }
 
 .waterText {
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 1.8em;
 }
 
@@ -712,7 +726,7 @@ li {
 }
 
 .healthText {
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 1.8em;
 }
 
@@ -746,7 +760,7 @@ li {
 }
 
 .malnutritionText {
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 1.8em;
 }
 
@@ -768,7 +782,7 @@ li {
 }
 
 .girlInClassText {
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 1.8em;
 }
 
@@ -806,7 +820,7 @@ li {
 }
 
 .girlsCarryingWaterText {
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 1.8em;
 }
 
@@ -844,7 +858,7 @@ li {
 }
 
 .kwagalaInjuredText {
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 1.8em;
 }
 
@@ -882,7 +896,7 @@ li {
 }
 
 .eatingText {
-  font-family: 'EB Garamond';
+  font-family: 'Barlow';
   font-size: 1.8em;
 }
 
