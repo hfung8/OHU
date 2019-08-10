@@ -199,7 +199,6 @@ body {
 
 .ugandaChildren::first-letter {
   font-size: 4em;
-  float: left;
   line-height: 80%;
 }
 
@@ -249,31 +248,17 @@ p {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-nav {
-  background: #1d1145;
-  height: 80px;
-  width: 100%;
-  border: 3px solid white;
+
+nav nav li a{
+  width: 100px;
+  color: #1d1145;
+  margin-left: 10px;
 }
 
-.navItems {
-  background-color: #1d1145;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav nav {
+  background-color: white;
+  display: inline-block;
 }
-
-.navItems ul {
-  display: inline;
-}
-
-.accordion li {
-  float: left;
-}
-
-/* .navItems a {
-  float: left; 
-} */
 
 #joinUs {
   margin-right: 10px;
@@ -287,7 +272,6 @@ nav {
 
 .kansimeText::first-letter {
   font-size: 4em;
-  float: left;
   line-height: 80%;
 }
 
@@ -344,8 +328,17 @@ nav {
   height: 55px;
 }
 
-li {
-  float: left;
+nav ul li {
+  display: inline-block;
+}
+
+.accordion {
+  color: black;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
 }
 
 #menu {
@@ -361,17 +354,6 @@ li {
   display: block;
   width: 60px;
 }
-
-.accordion {
-  color: black;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
 .accordion:hover {
   background-color: maroon;
   color: white;
@@ -381,15 +363,11 @@ li {
   box-sizing: border-box;
   padding: 0 25px;
   background-color: white;
+  height: 500px;
   max-height: 0;
   overflow: hidden;
   text-decoration: none;
   transition: max-height 0.2s ease-out;
-}
-
-.panelElement {
-  margin: 0px;
-  padding: 20px;
 }
 
 #ohu {
@@ -414,6 +392,7 @@ li {
   font-size: 8px;
   padding: 14.5px;
   margin-top: 3px;
+  width:150px;
 }
 
 .differenceButton {
@@ -519,7 +498,6 @@ li {
 
 .ugandaText::first-letter {
   font-size: 1.3em;
-  float: left;
   line-height: 80%;
 }
 

@@ -11,38 +11,44 @@
   <!-- CSS -->
   <link rel="stylesheet" href="./public/stylesheets/project.css" />
 </head>
+<style>
+		nav.dropdowns { position: absolute; top: 50px; left: 125px; }
+		nav.dropdowns a { display: inline-block; width: 100px; background-color: navy; color: white; padding: 5px; text-align: center; text-decoration: none; }
+		nav.dropdowns a[href]:hover { background-color: pink; color: black; }
+		nav.dropdowns nav { display: inline-block; margin-right: 10px; width: 100px; background-color: navy; vertical-align: top; }
+		nav.dropdowns nav a:first-of-type { cursor: default; }
+		nav.dropdowns nav a:first-of-type:after { content: " ▾"; vertical-align: top; }
+		nav.dropdowns nav a:not(:first-of-type) { text-align: left; display: none; }
+		nav.dropdowns nav:hover a:not(:first-of-type) { display: block; }
+	</style>
 
 <body>
   <div id="background">
-
-    <nav>
-      <ul class="navItems">
-        <li><img id="ohuImage" src="./public/images/OHU.png" /></li>
-        <li id="orphansOfHopeUganda">Orphans of<br>Hope Uganda</li>
-          <li class="accordion">About Us</li>
-          <ul class="panel">
-            <li class="panelElement"><a href="./public/whoWeAre.html">Who we are</a></li>
-            <li class="panelElement"><a href="./public/ourStory.html">Our Story</a></li>
-            <li class="panelElement"><a href="./public/missionAndCoreValue.html">Mission & Core Values</a></li>
-            <li class="panelElement"><a href="./public/ourTeam.html">Our Team</a></li>
-          </ul>
-          <li class="accordion">Our Work</li>
-          <ul class="panel">
-            <li class="panelElement"><a href="./public/whereWeWork.html">Where We Work</a></li>
-            <li class="panelElement"><a href="./public/ourOrphanage.html">Our Orphanage</a></li>
-            <li class="panelElement"><a href="./public/projectsAndImpact.html">Projects & Impact</a></li>
-          </ul>
-          <li class="accordion">Get Involved</li>
-          <ul class="panel">
-            <li><a href="volunteerNow">Volunteer Now</a></li>
-            <li><a href="ourVolunteers">Our Volunteers</a></li>
-          </ul>
-          <li><a href="#contactus">Contact Us</a></li>
+    <nav class="dropdowns">
+        <nav><img id="ohuImage" src="./public/images/OHU.png" /></nav>
+        <nav id="orphansOfHopeUganda">Orphans of<br>Hope Uganda</nav>
+          <nav class="accordion">
+            <a>About Us</a>
+            <a href="./public/whoWeAre.html">Who we are</a>
+            <a href="./public/ourStory.html">Our Story</a>
+            <a href="./public/missionAndCoreValue.html">Mission & Core Values</a>
+            <a href="./public/ourTeam.html">Our</a>
+          </nav>
+          <nav class="accordion">
+          <a>Our Work</a>
+            <a href="./public/whereWeWork.html">Where We Work</a>
+            <a href="./public/ourOrphanage.html">Our Orphanage</a>
+            <a href="./public/projectsAndImpact.html">Projects & Impact</a>
+          </nav>
+          <nav class="accordion">
+            <a>Get Involved</a>
+            <a href="volunteerNow">Volunteer Now</a>
+            <a href="ourVolunteers">Our Volunteers</a>
+          </nav>
+          <nav><a href="#contactus">Contact Us</a></nav>
           <button class="differenceButton">Make a difference</button>
-        </ul>
       <button class="volunteer">Volunteer</button>
-    </nav>
-
+        </nav>
     <h1 class="title">Orphans of Hope Uganda</h1>
     <p class="titleDiscription">We are making a difference in the lives of every child</p>
     <button class="donate">
@@ -75,19 +81,4 @@
     <img class="ugandasChildrenFuture" src="./public/images/Ugandas Children.png" />
   </div>
 </body>
-<script>
-  var acc = document.querySelectorAll(".accordion");
-  for (var i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function () {
-      this.classList.toggle("active");
-      var panel = this.nextElementSibling;
-      if (panel.style.maxHeight) {
-        panel.style.maxHeight = null;
-      } else {
-        panel.style.maxHeight = panel.scrollHeight + "px";
-      }
-    });
-  }
-</script>
-
 </html>
