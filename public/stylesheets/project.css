@@ -190,6 +190,8 @@ body {
   display: inline-block;
   display: absolute;
   text-align: center;
+  border-top: solid 1px navy;
+  border-bottom: solid 5px navy;
 }
 
 .donateImage {
@@ -216,10 +218,20 @@ body {
   font-size: 1em;
   opacity: 5%;
   border: solid 1px navy;
-  color: rgba(13, 181, 187, 0.5);
-  
+  color: rgb(255,255,255);
 }
 
+.learnMoreButton {
+  position: relative;
+  bottom: 280px;
+  padding: 16px;
+  font-family: 'Barlow Condensed';
+  background-color: rgba(13, 181, 187, 0.5);
+  font-size: 1em;
+  opacity: 5%;
+  border: solid 1px navy;
+  margin-left: 10px;
+}
 .volunteerButton {
   margin-top: 3px;
   margin-left: 10px;
