@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 3000px rgba(13, 181, 187, 0.5) inset;
+  border-bottom: solid 5px navy;
 }
 
 
@@ -165,6 +166,7 @@ body {
 .kansimeContainer {
   clear: both;
   float: right;
+  border-top: solid 5px navy;
 }
 
 .ugandasChildrenFutureContainer {
@@ -185,11 +187,14 @@ body {
   height: auto;
   width: 45%;
   float: left;
+  margin-top: 10px; 
+  margin-right: 10px;
+  border-right: solid 5px navy;
 }
 
 .flowerGirlsContainer {
   margin-top: 0px;
-
+  height: auto;
 }
 
 .ugandaChildren::first-letter {
@@ -261,8 +266,10 @@ nav nav {
 
 .kansime {
   float: right;
-  width: 55%;
+  width: 54.6%;
   height: auto;
+  border-left: solid 5px navy;
+  margin-bottom: 10px;
 }
 
 .kansimeText::first-letter {
@@ -327,15 +334,6 @@ nav ul li {
   display: inline-block;
 }
 
-.accordion {
-  color: black;
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
 #menu {
   border: 1px black;
   background-color: white;
@@ -349,21 +347,6 @@ nav ul li {
   display: block;
   width: 60px;
 }
-.accordion:hover {
-  background-color: maroon;
-  color: white;
-}
-
-.panel {
-  box-sizing: border-box;
-  padding: 0 25px;
-  background-color: white;
-  height: 500px;
-  max-height: 0;
-  overflow: hidden;
-  text-decoration: none;
-  transition: max-height 0.2s ease-out;
-}
 
 #ohu {
   height: 71px;
@@ -376,18 +359,14 @@ nav ul li {
   width: 90px;
   padding: 1px;
   background-color: white;
-  margin-left: 3px;
-  margin-top: 3px;
 }
 
-#orphansOfHopeUganda {
+.orphansOfHopeUganda {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #626852;
+  color: black;
   background-color: white;
-  font-size: 8px;
-  padding: 14.5px;
-  margin-top: 3px;
-  width:150px;
+  font-size: 9px;
+  padding: 10px;
 }
 
 .differenceButton {
@@ -887,4 +866,13 @@ nav ul li {
 .kansimeEating {
   width: 100%;
   height: auto;
+}
+
+.ugandanOrphanCrisisTitle {
+  color: rgba(13, 181, 187, 0.5);
+  font-family: 'Barlow Condensed'; 
+}
+
+.ugandanOrphanCrisisLine {
+  border: solid 1px black;
 }

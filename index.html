@@ -12,42 +12,81 @@
   <link rel="stylesheet" href="./public/stylesheets/project.css" />
 </head>
 <style>
-		nav.dropdowns { position: absolute; top: 50px; left: 125px; }
-		nav.dropdowns a { display: inline-block; width: 100px; background-color: navy; color: white; padding: 5px; text-align: center; text-decoration: none; }
-		nav.dropdowns a[href]:hover { background-color: pink; color: black; }
-		nav.dropdowns nav { display: inline-block; margin-right: 10px; width: 100px; background-color: navy; vertical-align: top; }
-		nav.dropdowns nav a:first-of-type { cursor: default; }
-		nav.dropdowns nav a:first-of-type:after { content: " ▾"; vertical-align: top; }
-		nav.dropdowns nav a:not(:first-of-type) { text-align: left; display: none; }
-		nav.dropdowns nav:hover a:not(:first-of-type) { display: block; }
-	</style>
+  nav.dropdowns {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    border-bottom: solid 1px navy;
+  }
+
+  nav.dropdowns a {
+    display: inline-block;
+    width: 100px;
+    background-color: white;
+    color: rgba(13, 181, 187, 0.5);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px navy;
+  }
+
+  nav.dropdowns a[href]:hover {
+    background-color: pink;
+    color: black;
+  }
+
+  nav.dropdowns nav {
+    display: inline-block;
+    margin-right: 10px;
+    width: 100px;
+    vertical-align: top;
+  }
+
+  nav.dropdowns nav a:first-of-type {
+    cursor: default;
+  }
+
+  nav.dropdowns nav a:first-of-type:after {
+    content: " ▾";
+    vertical-align: top;
+  }
+
+  nav.dropdowns nav a:not(:first-of-type) {
+    text-align: left;
+    display: none;
+  }
+
+  nav.dropdowns nav:hover a:not(:first-of-type) {
+    display: block;
+  }
+</style>
 
 <body>
   <div id="background">
     <nav class="dropdowns">
-        <nav><img id="ohuImage" src="./public/images/OHU.png" /></nav>
-        <nav id="orphansOfHopeUganda">Orphans of<br>Hope Uganda</nav>
-          <nav class="accordion">
-            <a>About Us</a>
-            <a href="./public/whoWeAre.html">Who we are</a>
-            <a href="./public/ourStory.html">Our Story</a>
-            <a href="./public/missionAndCoreValue.html">Mission & Core Values</a>
-            <a href="./public/ourTeam.html">Our</a>
-          </nav>
-          <nav class="accordion">
-          <a>Our Work</a>
-            <a href="./public/whereWeWork.html">Where We Work</a>
-            <a href="./public/ourOrphanage.html">Our Orphanage</a>
-            <a href="./public/projectsAndImpact.html">Projects & Impact</a>
-          </nav>
-          <nav class="accordion">
-            <a>Get Involved</a>
-            <a href="volunteerNow">Volunteer Now</a>
-            <a href="ourVolunteers">Our Volunteers</a>
-          </nav>
-          <nav><a href="#contactus">Contact Us</a></nav>
+      <nav><img id="ohuImage" src="./public/images/OHU.png" /></nav>
+      <nav class="orphansOfHopeUganda">Orphans of<br>Hope Uganda</nav>
+      <nav class="accordion">
+        <a>About Us</a>
+        <a href="./public/whoWeAre.html">Who we are</a>
+        <a href="./public/ourStory.html">Our Story</a>
+        <a href="./public/missionAndCoreValue.html">Mission &amp; Core Values</a>
+        <a href="./public/ourTeam.html">Our Team</a>
+      </nav>
+      <nav class="accordion">
+        <a>Our Work</a>
+        <a href="./public/whereWeWork.html">Where We Work</a>
+        <a href="./public/ourOrphanage.html">Our Orphanage</a>
+        <a href="./public/projectsAndImpact.html">Projects &amp; Impact</a>
+      </nav>
+      <nav class="accordion">
+        <a>Get Involved</a>
+        <a href="volunteerNow">Volunteer Now</a>
+        <a href="ourVolunteers">Our Volunteers</a>
+      </nav>
+      <nav><a href="#contactus">Contact Us</a></nav>
       <button class="volunteer">Volunteer</button>
-        </nav>
+    </nav>
     <h1 class="title">Orphans of Hope Uganda</h1>
     <p class="titleDiscription">We are making a difference in the lives of every child</p>
     <button class="donate">
@@ -56,6 +95,8 @@
   </div>
   <div class="flowerGirlsContainer">
     <img id="flowerGirls" src="./public/images/flowerGirls.jpg" />
+    <h1 class="ugandanOrphanCrisisTitle">Ugandan Orphan Crisis</h1>
+    <hr class="ugandanOrphanCrisisLine" />
     <p class="ugandaChildren">Uganda is home to approximately 2.4 million orphaned children.[1] Uganda’s orphan crisis
       has worsened through the
       decades. Children in Uganda are orphaned or abandoned most often due to illness or poverty in their families,
@@ -80,4 +121,5 @@
     <img class="ugandasChildrenFuture" src="./public/images/Ugandas Children.png" />
   </div>
 </body>
+
 </html>
