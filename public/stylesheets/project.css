@@ -12,7 +12,6 @@
   border-bottom: solid 5px navy;
 }
 
-
 body {
   background-color: white;
 }
@@ -188,20 +187,47 @@ body {
   padding: 0px;
 }
 
-.donate {
-  float: right;
-  margin-right: 300px;
-  padding: 16px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: white;
-  font-size: 1em;
+.donateImageContainer {
+  width: 1280px;
+  height: 490px;
+  display: inline-block;
+  display: absolute;
+  text-align: center;
 }
 
-.volunteer {
+.donateImage {
+  filter: opacity(20%);
+  height: 100%;
+  width: 100%;
+}
+
+.donateText {
+  position: relative;
+  bottom: 350px;
+  text-align: center;
+  font-family: 'Barlow Condensed';
+  font-size: 2em;
+  color: rgba(13, 181, 187, 0.5);
+}
+
+.donateButton {
+  position: relative; 
+  bottom: 280px;
+  padding: 16px;
+  font-family: 'Barlow Condensed';
+  background-color: rgba(13, 181, 187, 0.5);
+  font-size: 1em;
+  opacity: 5%;
+  border: solid 1px navy;
+  color: rgba(13, 181, 187, 0.5);
+  
+}
+
+.volunteerButton {
   margin-top: 3px;
   margin-left: 10px;
   padding: 16px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Barlow Condensed';
   background-color: white;
   font-size: 1em;
 }
@@ -211,7 +237,7 @@ body {
   float: right;
   margin-right: 300px;
   font-size: 2em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Barlow Condensed';
 }
 
 p {
@@ -223,7 +249,7 @@ p {
   float: right;
   margin-top: 250px;
   margin-right: 300px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Barlow';
 }
 
 
@@ -340,7 +366,7 @@ nav ul li {
 }
 
 .orphansOfHopeUganda {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Barlow';
   color: black;
   background-color: white;
   font-size: 9px;
