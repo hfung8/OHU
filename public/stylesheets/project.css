@@ -17,21 +17,19 @@ body {
   background-color: white;
 }
 
-#jumping {
+#jumpingImage {
   height: auto;
   width: 55%;
-  text-align: center;
   float: left;
 }
 
 .jumpingText::first-letter {
   font-size: 4em;
-  float: left;
   line-height: 80%;
 }
 
 .jumpingText {
-  line-height: 3;
+  line-height: 2;
   font-size: 1.3em;
   font-family: 'Barlow';
 }
@@ -42,11 +40,28 @@ body {
   float: right;
 }
 
+#laundryImage {
+  height: auto;
+  width: 45%;
+  float: right;
+}
+
+.laundryText::first-letter {
+  font-size: 4em;
+  line-height: 80%;
+}
+
+.laundryText {
+  line-height: 2;
+  font-size: 1.3em;
+  font-family: 'Barlow';
+}
+
 .mamaAndKidsContainer {
   text-align: center;
 }
 
-.mamaAndKids {
+.mamaAndKidsImage {
   height: 500px;
   width: 800px;
   display: block;
@@ -56,17 +71,16 @@ body {
 
 .mamaAndKidsText::first-letter {
   font-size: 4em;
-  float: left;
   line-height: 80%;
 }
 
 .mamaAndKidsText {
-  line-height: 3;
+  line-height: 2;
   font-size: 1.3em;
   font-family: 'Barlow';
 }
 
-.mamaAndKidsReading {
+.mamaAndKidsReadingImage {
   height: 500px;
   width: 750px;
   display: block;
@@ -85,32 +99,13 @@ body {
   margin: auto;
   text-align: center;
   font-family: 'Barlow Condensed';
-  color: red;
   padding: 7px;
-  background-color: #0db5bb;
   border: solid 4px white;
 }
 
-.rAndE {
+.rAndEImage {
   max-width: 100%;
   height: auto;
-}
-
-.rAndELine {
-  border: 2px solid white;
-  width: 100%;
-  position: absolute;
-  top: 33px;
-}
-
-.rAndEMissionTitle {
-  font-family: 'Barlow Condensed';
-  margin: auto;
-  text-align: center;
-  position: absolute;
-  top: 0px;
-  right: 50%;
-  color: white;
 }
 
 .rAndEMissionText {
@@ -144,24 +139,7 @@ body {
   border: 2px solid;
 }
 
-#laundry {
-  height: auto;
-  width: 45%;
-  float: right;
-  text-align: center;
-}
 
-.laundryText::first-letter {
-  font-size: 4em;
-  float: left;
-  line-height: 80%;
-}
-
-.laundryText {
-  line-height: 3;
-  font-size: 1.3em;
-  font-family: 'Barlow';
-}
 
 .kansimeContainer {
   clear: both;
@@ -386,11 +364,10 @@ nav ul li {
 
 .mamaJaneContainer {
   display: inline-block;
-  position: relative;
   height: 400px;
   width: 300px;
   text-align: center;
-  margin-left: 5%;
+  margin-right: 0px;
 }
 
 #mamaJane {
@@ -406,17 +383,16 @@ nav ul li {
 }
 
 .kinalwayHerbertContainer {
-  display: inline-block;
   height: 400px;
   width: 300px;
-  margin-left: 40%;
   text-align: center;
+  display: inline-block;
+  margin-left: 0px;
 }
 
 #kinalwayHerbert {
   width: 100%;
   height: auto;
-  left: 100px;
 }
 
 .kinalwayHerbertText {
@@ -425,33 +401,29 @@ nav ul li {
   font-size: 1.3em;
 }
 
-.mamaJaneHerbertLine {
-  border: solid 1px black;
-  width: 25%;
-  margin-top: 5%;
-}
 
 .mamaJaneHerbertText {
   font-family: 'Barlow';
   text-align: center;
   font-size: 1.3em;
+  clear: both;
 }
 
 .teacherContainer {
-  width: 1000px;
+  width: 650px;
   height: auto;
-  margin: auto;
+  display: inline-block;
+  margin: 0px;
 }
 
 .teacher {
-  width: 100%;
-  height: auto;
+  width:100%;
+  height: 100%
 }
 
 .whereWeWorkTitle {
   font-family: 'Barlow Condensed';
-  background-color: #e8dfcd;
-  color: red;
+  background-color: rgba(13, 181, 187, 0.5);
   border: solid 1.3px #b5a387;
 }
 
@@ -460,7 +432,7 @@ nav ul li {
   height: auto;
 }
 
-.ugandaWorld {
+.ugandaWorldImage {
   width: 100%;
   height: auto;
 }
@@ -513,8 +485,7 @@ nav ul li {
 
 .ourOrphanageTitle {
   font-family: 'Barlow Condensed';
-  background-color: #e8dfcd;
-  color: red;
+  background-color: rgba(13, 181, 187, 0.5);
   border: solid 1.3px #b5a387;
 }
 
@@ -562,8 +533,7 @@ nav ul li {
 
 .projectsAndImpactTitle {
   font-family: 'Barlow Condensed';
-  background-color: #e8dfcd;
-  color: red;
+  background-color: rgba(13, 181, 187, 0.5);
   border: solid 1.3px #b5a387;
 }
 
@@ -718,9 +688,8 @@ nav ul li {
 
 .educationPageTitle {
   font-family: 'Barlow Condensed';
-  background-color: #e8dfcd;
+  background-color: rgba(13, 181, 187, 0.5);
   border: solid 1px #b5a387;
-  color: red;
 }
 
 .girlInClassContainer {
@@ -756,9 +725,8 @@ nav ul li {
 
 .waterPageTitle {
   font-family: 'Barlow Condensed';
-  background-color: #e8dfcd;
+  background-color: rgba(13, 181, 187, 0.5);
   border: solid 1px #b5a387;
-  color: red;
 }
 
 .girlsCarryingWaterContainer {
@@ -794,9 +762,8 @@ nav ul li {
 
 .healthPageTitle {
   font-family: 'Barlow Condensed';
-  background-color: #e8dfcd;
+  background-color: rgba(13, 181, 187, 0.5);
   border: solid 1px #b5a387;
-  color: red;
 }
 
 .kwagalaContainer {
@@ -832,9 +799,8 @@ nav ul li {
 
 .eatingPageTitle {
   font-family: 'Barlow Condensed';
-  background-color: #e8dfcd;
+  background-color: rgba(13, 181, 187, 0.5);
   border: solid 1px #b5a387;
-  color: red;
 }
 
 .eatingContainer {
@@ -854,7 +820,6 @@ nav ul li {
 
 .eatingText::first-letter {
   font-size: 4em;
-  float: left;
   line-height: 80%;
 }
 
@@ -876,3 +841,4 @@ nav ul li {
 .ugandanOrphanCrisisLine {
   border: solid 1px black;
 }
+
