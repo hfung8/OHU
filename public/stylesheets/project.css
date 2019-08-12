@@ -5,9 +5,10 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/landscape.jpg");
+  background-color: rgba(13, 181, 187, 0.5);
+  /* background-image: url("../images/landscape.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   /* box-shadow: 0 3000px rgba(13, 181, 187, 0.5) inset; */
   border-bottom: solid 5px navy;
 }
