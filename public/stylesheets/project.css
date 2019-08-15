@@ -878,7 +878,7 @@ nav ul li {
 }
 
 .footer {
-  text-align:center;
+  /* text-align:center; */
   background-color: white;
   display: block;
 }
@@ -888,10 +888,12 @@ nav ul li {
   position: relative;
   margin-bottom: 5px;
   font-size: 24px;
+  font-family: 'Barlow';
 }
-.followUs {
-  font-family: "Barlow";
-  display: inline-block;
+
+.weAreHere {
+  height: 300px;
+  width: auto;
 }
 
 .footerItems li {
