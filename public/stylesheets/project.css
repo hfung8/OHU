@@ -188,7 +188,7 @@ body {
   width: 1280px;
   height: 490px;
   display: inline-block;
-  display: absolute;
+  /* display: absolute; */
   text-align: center;
   border-top: solid 1px navy;
   border-bottom: solid 5px navy;
@@ -877,3 +877,23 @@ nav ul li {
   border: solid 1px black;
 }
 
+.footer {
+  text-align:center;
+  background-color: white;
+  display: block;
+}
+
+.address, .followUs {
+  color: rgba(13, 181, 187, 0.5);
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+.followUs {
+  font-family: "Barlow";
+  display: inline-block;
+}
+
+.footerItems li {
+  list-style-type:none;
+}
