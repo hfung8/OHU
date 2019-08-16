@@ -878,9 +878,10 @@ nav ul li {
 }
 
 .footer {
-  /* text-align:center; */
   background-color: white;
   display: block;
+  padding: 20px;
+  text-align:center;
 }
 
 .address, .followUs {
@@ -898,4 +899,16 @@ nav ul li {
 
 .footerItems li {
   list-style-type:none;
+}
+
+.orphansOfHopeUgandaFooter {
+  font-family: 'Barlow';
+  font-size: 1.3em;
+  color: rgba(13, 181, 187, 0.5);
+}
+
+@media screen and (max-width: 375px){
+
+
+
 }
