@@ -951,7 +951,6 @@ nav ul li {
 }
 
 .nathanContainer, .poojaContainer, .lilyContainer, .shirContainer, .lucyContainer, .masonContainer, .benContainer, .ofekContainer, .alvisContainer {
-  display: inline-block;
   height: 400px;
   width: 300px;
   text-align: center;
@@ -959,19 +958,20 @@ nav ul li {
 
 .nathanImage, .poojaImage, .lilyImage, .shirImage, .lucyImage, .masonImage, .benImage, .ofekImage, .alvisImage {
   width: 100%;
-  height: auto
+  height: auto;
 }
 
 .nathanContainer, .shirContainer, .benContainer {
   margin-right: 0px;
 }
 
-.lilyContainer, .masonContainer, .alvisContainer {
+.lilyContainer, .masonContainer {
   margin-left: 0px;
 }
 
 .nathanText, .poojaText, .lilyAndBonnyText, .shirText, .lucyText, .masonText, .benText, .ofekText, .alvisText {
-  bottom: -60px;
+  display: flex;
+  justify-content: space-evenly;
   font-family: 'Barlow';
   font-size: 1.3em;
 }
@@ -979,6 +979,11 @@ nav ul li {
 .meetOurVolunteersTitle {
   font-family: 'Barlow';
   text-align: center;
+}
+
+.ourVolunteersFirstNathanPoojaLilyContainer, .ourVolunteersSecondShirLucyMasonContainer, .ourVolunteersThirdBenOfekAlvisContainer {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 375px) {
