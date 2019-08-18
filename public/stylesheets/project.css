@@ -178,7 +178,7 @@ body {
 
 .ugandaChildren {
   line-height: 1.8;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-family: 'Barlow';
   margin: 0px;
   padding: 0px;
@@ -293,7 +293,7 @@ nav nav {
 
 .kansimeText {
   line-height: 1.8;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-family: 'Barlow';
 }
 
@@ -412,7 +412,7 @@ nav ul li {
   left: 100px;
 }
 
-.mamaJaneText {
+.mamaJaneText, .kinalwayHerbertText {
   bottom: -60px;
   font-family: 'Barlow';
   font-size: 1.3em;
@@ -430,13 +430,6 @@ nav ul li {
   width: 100%;
   height: auto;
 }
-
-.kinalwayHerbertText {
-  bottom: -60px;
-  font-family: 'Barlow';
-  font-size: 1.3em;
-}
-
 
 .mamaJaneHerbertText {
   font-family: 'Barlow';
@@ -955,6 +948,37 @@ nav ul li {
   font-family: 'Barlow Condensed';
   font-size: 1.3em; 
   color: rgba(13, 181, 187, 0.5);
+}
+
+.nathanContainer, .poojaContainer, .lilyContainer, .shirContainer, .lucyContainer, .masonContainer, .benContainer, .ofekContainer, .alvisContainer {
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  text-align: center;
+}
+
+.nathanImage, .poojaImage, .lilyImage, .shirImage, .lucyImage, .masonImage, .benImage, .ofekImage, .alvisImage {
+  width: 100%;
+  height: auto
+}
+
+.nathanContainer, .shirContainer, .benContainer {
+  margin-right: 0px;
+}
+
+.lilyContainer, .masonContainer, .alvisContainer {
+  margin-left: 0px;
+}
+
+.nathanText, .poojaText, .lilyAndBonnyText, .shirText, .lucyText, .masonText, .benText, .ofekText, .alvisText {
+  bottom: -60px;
+  font-family: 'Barlow';
+  font-size: 1.3em;
+}
+
+.meetOurVolunteersTitle {
+  font-family: 'Barlow';
+  text-align: center;
 }
 
 @media screen and (max-width: 375px) {
