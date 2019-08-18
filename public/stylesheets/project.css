@@ -161,7 +161,7 @@ body {
   height: auto;
   width: 45%;
   float: left;
-  margin-top: 10px; 
+  margin-top: 10px;
   margin-right: 10px;
   border-right: solid 5px navy;
 }
@@ -210,7 +210,7 @@ body {
 }
 
 .donateButton {
-  position: relative; 
+  position: relative;
   bottom: 280px;
   padding: 16px;
   font-family: 'Barlow Condensed';
@@ -218,7 +218,7 @@ body {
   font-size: 1em;
   opacity: 5%;
   border: solid 1px navy;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
 }
 
 .learnMoreButton {
@@ -232,6 +232,7 @@ body {
   border: solid 1px navy;
   margin-left: 10px;
 }
+
 .volunteerButton {
   margin-top: 3px;
   margin-left: 10px;
@@ -262,7 +263,7 @@ p {
 }
 
 
-nav nav li a{
+nav nav li a {
   width: 100px;
   color: #1d1145;
   margin-left: 10px;
@@ -302,7 +303,7 @@ nav nav {
   padding: 30px 10px 10px 10px;
   width: 155px;
   text-align: center;
-  position: fixed; 
+  position: fixed;
   /* top: 0; */
   left: -150px;
   transition: left 0.5s;
@@ -452,7 +453,7 @@ nav ul li {
 }
 
 .teacher {
-  width:100%;
+  width: 100%;
   height: 100%
 }
 
@@ -870,7 +871,7 @@ nav ul li {
 
 .ugandanOrphanCrisisTitle {
   color: rgba(13, 181, 187, 0.5);
-  font-family: 'Barlow Condensed'; 
+  font-family: 'Barlow Condensed';
 }
 
 .ugandanOrphanCrisisLine {
@@ -881,10 +882,11 @@ nav ul li {
   background-color: white;
   display: block;
   padding: 20px;
-  text-align:center;
+  text-align: center;
 }
 
-.address, .followUs {
+.address,
+.followUs {
   color: rgba(13, 181, 187, 0.5);
   position: relative;
   margin-bottom: 5px;
@@ -898,7 +900,7 @@ nav ul li {
 }
 
 .footerItems li {
-  list-style-type:none;
+  list-style-type: none;
 }
 
 .orphansOfHopeUgandaFooter {
@@ -907,8 +909,58 @@ nav ul li {
   color: rgba(13, 181, 187, 0.5);
 }
 
-@media screen and (max-width: 375px){
+.benAndBonnyContainer,
+.benAndBonnyImage {
+  width: 100%;
+  height: auto;
+}
 
+.benAndBonnyText,
+.volunteerNowText,
+.openVolunteerProjectsText {
+  font-family: 'Barlow Condensed';
+  font-size: 1.3em;
+  color: rgba(13, 181, 187, 0.5);
+}
 
+.openVolunteerProjectsText {
+  font-family: 'Barlow Condensed';
+  color: rgba(13, 181, 187, 0.5);
+  font-size: 1.3em;
+}
 
+.openVolunteerProjectsTitle {
+  font-family: 'Barlow';
+  text-align: center;
+  color: black;
+}
+
+.lucyAndGiftContainer, .lucyAndGiftImage {
+  width: 100%;
+  height: auto;
+}
+
+.lucyAndGiftLine, .volunteerContinuedLine {
+  border: solid 1px navy; 
+  width: 15%;
+}
+
+.volunteerContinuedRequirementsTitle, .volunteerContinuedHowToApplyTitle {
+  font-family: 'Barlow Condensed';
+  color: black; 
+  text-align: center;
+}
+
+.lucyAndGiftText, .lucyAndGiftUnorderedList, .volunteerContinuedText {
+  font-family: 'Barlow Condensed';
+  font-size: 1.3em; 
+  color: rgba(13, 181, 187, 0.5);
+}
+
+@media screen and (max-width: 375px) {
+  nav.dropdown a {
+    width: 375px !important;
+    background-color: red !important;
+    /* margin: 0 auto; */
+  }
 }
