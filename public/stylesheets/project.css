@@ -913,12 +913,12 @@ nav ul li {
 .openVolunteerProjectsText {
   font-family: 'Barlow Condensed';
   font-size: 1.3em;
-  color: rgba(13, 181, 187, 0.5);
+  color:black;
 }
 
 .openVolunteerProjectsText {
   font-family: 'Barlow Condensed';
-  color: rgba(13, 181, 187, 0.5);
+  color: black;
   font-size: 1.3em;
 }
 
@@ -940,14 +940,14 @@ nav ul li {
 
 .volunteerContinuedRequirementsTitle, .volunteerContinuedHowToApplyTitle {
   font-family: 'Barlow Condensed';
-  color: black; 
+  color: rgba(13, 181, 187, 0.5);
   text-align: center;
 }
 
 .lucyAndGiftText, .lucyAndGiftUnorderedList, .volunteerContinuedText {
   font-family: 'Barlow Condensed';
   font-size: 1.3em; 
-  color: rgba(13, 181, 187, 0.5);
+  color: black;
 }
 
 .nathanContainer, .poojaContainer, .lilyContainer, .shirContainer, .lucyContainer, .masonContainer, .benContainer, .ofekContainer, .alvisContainer {
