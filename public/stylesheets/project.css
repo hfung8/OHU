@@ -1,5 +1,55 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed|Barlow");
 
+nav.dropdowns {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  border-bottom: solid 1px navy;
+}
+
+nav.dropdowns a {
+  font-family: 'Barlow Condensed';
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  background-color: white;
+  color: rgba(13, 181, 187, 0.5);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  /* border: solid 1px navy; */
+}
+
+nav.dropdowns a[href]:hover {
+  background-color: pink;
+  color: black;
+}
+
+nav.dropdowns nav {
+  display: inline-block;
+  margin-right: 10px;
+  width: 100px;
+  vertical-align: top;
+}
+
+nav.dropdowns nav a:first-of-type {
+  cursor: default;
+}
+
+nav.dropdowns nav a:first-of-type:after {
+  content: " ▾";
+  vertical-align: top;
+}
+
+nav.dropdowns nav a:not(:first-of-type) {
+  text-align: left;
+  display: none;
+}
+
+nav.dropdowns nav:hover a:not(:first-of-type) {
+  display: block;
+}
+
 #background {
   height: 800px;
   width: 100%;
@@ -135,8 +185,6 @@ body {
   border: 2px solid;
 }
 
-
-
 .kansimeContainer {
   clear: both;
   float: right;
@@ -185,8 +233,8 @@ body {
 }
 
 .donateImageContainer {
-  width: 1265px;
-  height: 490px;
+  width: 100%;
+  height: auto;
   display: inline-block;
   /* display: absolute; */
   text-align: center;
@@ -412,7 +460,8 @@ nav ul li {
   left: 100px;
 }
 
-.mamaJaneText, .kinalwayHerbertText {
+.mamaJaneText,
+.kinalwayHerbertText {
   bottom: -60px;
   font-family: 'Barlow';
   font-size: 1.3em;
@@ -913,7 +962,7 @@ nav ul li {
 .openVolunteerProjectsText {
   font-family: 'Barlow Condensed';
   font-size: 1.3em;
-  color:black;
+  color: black;
 }
 
 .openVolunteerProjectsText {
@@ -928,48 +977,80 @@ nav ul li {
   color: black;
 }
 
-.lucyAndGiftContainer, .lucyAndGiftImage {
+.lucyAndGiftContainer,
+.lucyAndGiftImage {
   width: 100%;
   height: auto;
 }
 
-.lucyAndGiftLine, .volunteerContinuedLine {
-  border: solid 1px navy; 
+.lucyAndGiftLine,
+.volunteerContinuedLine {
+  border: solid 1px navy;
   width: 15%;
 }
 
-.volunteerContinuedRequirementsTitle, .volunteerContinuedHowToApplyTitle {
+.volunteerContinuedRequirementsTitle,
+.volunteerContinuedHowToApplyTitle {
   font-family: 'Barlow Condensed';
   color: rgba(13, 181, 187, 0.5);
   text-align: center;
 }
 
-.lucyAndGiftText, .lucyAndGiftUnorderedList, .volunteerContinuedText {
+.lucyAndGiftText,
+.lucyAndGiftUnorderedList,
+.volunteerContinuedText {
   font-family: 'Barlow Condensed';
-  font-size: 1.3em; 
+  font-size: 1.3em;
   color: black;
 }
 
-.nathanContainer, .poojaContainer, .lilyContainer, .shirContainer, .lucyContainer, .masonContainer, .benContainer, .ofekContainer, .alvisContainer {
+.nathanContainer,
+.poojaContainer,
+.lilyContainer,
+.shirContainer,
+.lucyContainer,
+.masonContainer,
+.benContainer,
+.ofekContainer,
+.alvisContainer {
   height: 400px;
   width: 300px;
   text-align: center;
 }
 
-.nathanImage, .poojaImage, .lilyImage, .shirImage, .lucyImage, .masonImage, .benImage, .ofekImage, .alvisImage {
+.nathanImage,
+.poojaImage,
+.lilyImage,
+.shirImage,
+.lucyImage,
+.masonImage,
+.benImage,
+.ofekImage,
+.alvisImage {
   width: 100%;
   height: auto;
 }
 
-.nathanContainer, .shirContainer, .benContainer {
+.nathanContainer,
+.shirContainer,
+.benContainer {
   margin-right: 0px;
 }
 
-.lilyContainer, .masonContainer {
+.lilyContainer,
+.masonContainer {
   margin-left: 0px;
 }
 
-.nathanText, .poojaText, .lilyAndBonnyText, .shirText, .lucyText, .masonText, .benText, .ofekText, .alvisText {
+.nathanText,
+.poojaText,
+.lilyAndBonnyText,
+.shirText,
+.lucyText,
+.masonText,
+.benText,
+.ofekText,
+.alvisText {
   display: flex;
   justify-content: space-evenly;
   font-family: 'Barlow';
@@ -981,9 +1062,30 @@ nav ul li {
   text-align: center;
 }
 
-.ourVolunteersFirstNathanPoojaLilyContainer, .ourVolunteersSecondShirLucyMasonContainer, .ourVolunteersThirdBenOfekAlvisContainer {
+.ourVolunteersFirstNathanPoojaLilyContainer,
+.ourVolunteersSecondShirLucyMasonContainer,
+.ourVolunteersThirdBenOfekAlvisContainer {
   display: flex;
   justify-content: space-between;
+}
+
+.donationContainer {
+  width: 1265px;
+  height: auto;
+}
+
+.donationImage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.donationText {
+  position: relative;
+  bottom: 150px;
+  color: white;
+  font-family: 'Barlow Condensed';
+  font-size: 1.5em;
 }
 
 @media screen and (max-width: 375px) {
