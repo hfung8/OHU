@@ -188,7 +188,6 @@ body {
 
 .kansimeContainer {
   clear: both;
-  float: right;
   border-top: solid 5px navy;
 }
 
@@ -240,7 +239,6 @@ body {
   /* display: absolute; */
   text-align: center;
   border-top: solid 1px navy;
-  border-bottom: solid 5px navy;
 }
 
 .donateImage {
@@ -1118,6 +1116,10 @@ a.nostyle::after {
   content: none !important;
 }
 
+.footerLine {
+  border: solid 3px navy;
+}
+
 @media screen and (max-width: 375px) {
   nav.dropdown a {
     width: 375px !important;
@@ -1126,18 +1128,31 @@ a.nostyle::after {
   }
 }
 
-/* @media screen and (max-width: ) */
+.content {
+  margin: auto;
+  max-width: 1280px;
+}
+
 
 @media screen and (max-width: 1280px) {
   nav.dropdown {
     width: 100% !important;
   }
-  .footer {
+  .footerLine {
     width: 100% !important;
+    margin: 0px;
+  }
+  
+  #background, .flowerGirlsContainer, .kansimeContainer, .donateImageContainer {
+    width: 1200px !important; 
   }
 
-  body {
-    width: 1200px;
+  .ugandaChildren {
+    line-height: 1.8em;
+  }
+
+  .kansimeText {
+    line-height: 1.8em;
   }
 }
 
