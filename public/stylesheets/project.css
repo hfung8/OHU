@@ -64,16 +64,27 @@ body {
   background-color: white;
 }
 
-#jumpingImage {
-  height: auto;
-  width: 55%;
-  float: left;
+.orphansOfHopeUgandaTitle {
+  font-family: 'Barlow Condensed';
 }
 
-.jumpingText::first-letter {
+.orphansOfHopeUgandaLine {
+  border: solid 1px navy;
+}
+
+
+#jumpingImage {
+  height: auto;
+  width: 54.6%;
+  float: left;
+  border-right: solid 5px navy; 
+  margin-right: 10px;
+}
+
+/* .jumpingText::first-letter {
   font-size: 4em;
   line-height: 80%;
-}
+} */
 
 .jumpingText {
   line-height: 2;
@@ -84,19 +95,20 @@ body {
 
 .laundryContainer {
   clear: both;
-  float: right;
+  border-top: solid 5px navy;
 }
 
 #laundryImage {
   height: auto;
   width: 45%;
   float: right;
+  border-left: solid 5px navy;
 }
 
-.laundryText::first-letter {
+/* .laundryText::first-letter {
   font-size: 4em;
   line-height: 80%;
-}
+} */
 
 .laundryText {
   line-height: 2;
@@ -116,10 +128,10 @@ body {
   margin-right: auto;
 }
 
-.mamaAndKidsText::first-letter {
+/* .mamaAndKidsText::first-letter {
   font-size: 4em;
   line-height: 80%;
-}
+} */
 
 .mamaAndKidsText {
   line-height: 2;
@@ -469,7 +481,7 @@ nav ul li {
 }
 
 .mamaJaneText,
-.kinalwayHerbertText {
+.kinalwayHerbertText, .teacherText {
   bottom: -60px;
   font-family: 'Barlow';
   font-size: 1.3em;
@@ -500,6 +512,7 @@ nav ul li {
   height: auto;
   display: inline-block;
   margin: 0px;
+  text-align: center;
 }
 
 .teacher {
@@ -1060,9 +1073,10 @@ nav ul li {
 .ofekText,
 .alvisText {
   display: flex;
-  justify-content: space-evenly;
+  flex: 1;
   font-family: 'Barlow';
-  font-size: 1.3em;
+  font-size: 1.1em;
+  margin: 5px;
 }
 
 .meetOurVolunteersTitle {
@@ -1074,8 +1088,22 @@ nav ul li {
 .ourVolunteersSecondShirLucyMasonContainer,
 .ourVolunteersThirdBenOfekAlvisContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin: 0;
+  text-align: center;
 }
+
+.nathanImage, .poojaImage, .lilyImage, .shirImage, .lucyImage, .masonImage, .benImage, .ofekImage, .placeholderImage {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.ourVolunteersFirstNathanPoojaLilyText, .ourVolunteersSecondShirLucyMasonText, .ourVolunteersThirdBenOfekAlvisText {
+  display: flex; 
+  flex: 1 1 0;
+}
+
 
 .donationImage {
   width: 100%;
@@ -1096,7 +1124,7 @@ nav ul li {
 }
 
 .landscapeContainer {
-  width: 75%; 
+  width: 75%;
   height: auto;
   border-top: solid 5px navy;
   border-bottom: solid 5px navy;
@@ -1124,7 +1152,6 @@ a.nostyle::after {
   nav.dropdown a {
     width: 375px !important;
     background-color: red !important;
-    /* margin: 0 auto; */
   }
 }
 
@@ -1133,18 +1160,43 @@ a.nostyle::after {
   max-width: 1280px;
 }
 
+@media screen and (min-width: 1280px) and (max-width: 1680px) {
+  .ugandaChildren {
+    line-height: 2.0em;
+  }
+
+  .kansimeText {
+    line-height: 2.0em;
+  }
+
+  .childrenJumpingContainer {
+    width: 1200px !important;
+  }
+
+  .laundryContainer {
+    width: 1200px !important;
+  }
+
+  .mamaAndKidsText {
+    width: 1200px !important;
+  }
+}
 
 @media screen and (max-width: 1280px) {
   nav.dropdown {
     width: 100% !important;
   }
+
   .footerLine {
     width: 100% !important;
     margin: 0px;
   }
-  
-  #background, .flowerGirlsContainer, .kansimeContainer, .donateImageContainer {
-    width: 1200px !important; 
+
+  #background,
+  .flowerGirlsContainer,
+  .kansimeContainer,
+  .donateImageContainer {
+    width: 1200px !important;
   }
 
   .ugandaChildren {
@@ -1155,4 +1207,5 @@ a.nostyle::after {
     line-height: 1.8em;
   }
 }
+
 
