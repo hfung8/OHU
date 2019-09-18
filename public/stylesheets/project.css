@@ -56,7 +56,9 @@ nav.dropdowns nav:hover a:not(:first-of-type) {
   width: 100%;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(white, rgba(13, 181, 187, 0.5));
+  /* background-image: linear-gradient(white, rgba(13, 181, 187, 0.5)); */
+  background-image: url("../images/3girls.jpg");
+  background-size: cover; 
   border-bottom: solid 5px navy;
 }
 
@@ -302,7 +304,7 @@ body {
 }
 
 .titleDiscription {
-  color: black;
+  color: white;
   float: right;
   margin-right: 300px;
   font-size: 2em;
@@ -314,7 +316,7 @@ p {
 }
 
 .title {
-  color: black;
+  color: white;
   float: right;
   margin-top: 250px;
   margin-right: 300px;
