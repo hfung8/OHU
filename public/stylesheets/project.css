@@ -52,12 +52,12 @@ nav.dropdowns nav:hover a:not(:first-of-type) {
 }
 
 #background {
-  height: 800px;
+  height: 600px;
   width: 100%;
   align-items: center;
   justify-content: center;
   /* background-image: linear-gradient(white, rgba(13, 181, 187, 0.5)); */
-  background-image: url("../images/3girls.jpg");
+  background-image: url("../images/3girls_test.jpg");
   background-size: cover; 
   border-bottom: solid 5px navy;
 }
