@@ -73,7 +73,7 @@ body {
 }
 
 
-#jumpingImage {
+#jumpingImage, .ugandaWorldImage, .redTree {
   height: auto;
   width: 54.6%;
   float: left;
@@ -98,7 +98,7 @@ body {
   border-top: solid 5px navy;
 }
 
-#laundryImage {
+#laundryImage, .cow {
   height: auto;
   width: 45%;
   float: right;
@@ -474,6 +474,17 @@ nav ul li {
   margin-right: 0px;
 }
 
+.mamaJaneAndKidsTitle {
+  font-family: 'Barlow';
+  text-align: center; 
+}
+
+.mamaJaneAndKidsTextLine {
+  border: solid 2px navy;
+}
+.mamaJaneAndKidsLine {
+  border: solid 1px navy;
+}
 #mamaJane {
   width: 100%;
   height: auto;
@@ -531,19 +542,23 @@ nav ul li {
   height: auto;
 }
 
-.ugandaWorldImage {
+/* .ugandaWorldImage {
   width: 100%;
   height: auto;
-}
+} */
 
-.ugandaText {
+.ugandaText, .cowText, .redTreeText {
   font-family: "Barlow";
-  font-size: 2em;
+  font-size: 1.3em;
+  line-height: 2;
 }
 
-.ugandaText::first-letter {
-  font-size: 1.3em;
-  line-height: 80%;
+.ugandaWorldImage {
+  border-bottom: solid 5px navy;
+}
+
+.redTree {
+  border-top: solid 5px navy;
 }
 
 .cowContainer {
@@ -551,36 +566,20 @@ nav ul li {
   height: auto;
 }
 
-.cow {
+/* .cow {
   width: 100%;
   height: auto;
-}
-
-.cowText {
-  font-family: 'Barlow';
-  font-size: 2em;
-}
+} */
 
 .redTreeContainer {
   width: 100%;
   height: auto;
 }
 
-.redTree {
+/* .redTree {
   width: 100%;
   height: auto;
-}
-
-.redTreeText {
-  font-family: 'Barlow';
-  font-size: 2em;
-}
-
-.redTreeText::first-letter {
-  font-size: 1.3em;
-  float: left;
-  line-height: 80%;
-}
+} */
 
 .ourOrphanageTitle {
   font-family: 'Barlow Condensed';
@@ -1169,16 +1168,8 @@ a.nostyle::after {
     line-height: 2.0em;
   }
 
-  .childrenJumpingContainer {
-    width: 1200px !important;
-  }
-
-  .laundryContainer {
-    width: 1200px !important;
-  }
-
-  .mamaAndKidsText {
-    width: 1200px !important;
+  .childrenJumpingContainer, .laundryContainer, .mamaAndKidsText, .ugandaWorldContainer, .cowContainer, .redTreeContainer {
+    width: 1280px !important;
   }
 }
 
