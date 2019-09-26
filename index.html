@@ -15,64 +15,65 @@
 </head>
 
 <body>
-  <nav class="dropdowns">
+  <nav class="dropdowns" id="Topbar">
     <nav><img id="ohuImage" src="./public/images/OHU.png" /></nav>
     <nav class="orphansOfHopeUganda">Orphans of<br>Hope <br>Uganda</nav>
     <nav class="accordion">
       <a href="index.html" class="nostyle">HOME</a>
     </nav>
     <nav class="accordion">
-      <a class="accordionTitle">ABOUT US</a>
+      <a class="accordionTitle title">ABOUT US</a>
       <a href="./public/whoWeAre.html">WHO WE ARE</a>
       <a href="./public/ourStory.html">OUR STORY</a>
       <a href="./public/missionAndCoreValue.html">MISSION &amp; CORE VALUES</a>
       <a href="./public/ourTeam.html">OUR TEAM</a>
     </nav>
     <nav class="accordion">
-      <a>OUR WORK</a>
+      <a class="title">OUR WORK</a>
       <a href="./public/whereWeWork.html">WHERE WE WORK</a>
       <a href="./public/ourOrphanage.html">OUR ORPHANAGE</a>
       <a href="./public/projectsAndImpact.html">PROJECTS &amp; IMPACT</a>
     </nav>
     <nav class="accordion">
-      <a>GET INVOLVED</a>
+      <a class="title">GET INVOLVED</a>
       <a href="./public/volunteerNow.html">VOLUNTEER NOW</a>
       <a href="./public/ourVolunteers.html">OUR VOLUNTEERS</a>
     </nav>
     <nav class="accordion"><a href="#contactus">CONTACT US</a></nav>
-    <!-- <button class="volunteerButton">Volunteer</button> -->
+    <a href="javascript:void(0);" class="icon" onclick="topbar()"><i class="fa fa-bars"></i></a>
   </nav>
   <div class="content">
-  <div id="background">
-    <!-- <h1 class="title">ORPHANS OF HOPE UGANDA</h1> -->
-    <button class="titleDiscription">WE ARE MAKING A DIFFERENCE IN THE LIVES OF EVERY CHILD</button><br>
-    <button class="learnHowToVolunteer"><a href="./public/volunteerNow.html">VOLUNTEER WITH US</a></button>
-  </div>
-  <div class="flowerGirlsContainer">
-    <img id="flowerGirls" src="./public/images/flowerGirls.jpg" />
-    <h1 class="ugandanOrphanCrisisTitle">Ugandan Orphan Crisis</h1>
-    <hr class="ugandanOrphanCrisisLine" />
-    <p class="ugandaChildren">Uganda is home to approximately 2.4 million orphaned children. Uganda’s orphan crisis
-      has worsened through the
-      decades. Children in Uganda are orphaned or abandoned most often due to illness or poverty in their families,
-      frequently a combination of both. Additionally, many children may have parents who are living with HIV. The death
-      of a father has been a major contributing factor for orphanhood due to gender inequality and the lack of women’s
-      right.
-    </p>
-  </div>
-  <div class="kansimeContainer">
-    <img class="kansime" src="./public/images/kansime.jpg" />
-    <p class="kansimeText">
-      As a child in Uganda, you
-      are at risk of extreme
-      poverty and have a high
-      chance of contracting
-      malaria and HIV, along with
-      the looming danger of conflict. Children continue to be left to defend themselves
-      against life’s harsh realities.
-    </p>
-  </div>
-  <!-- <div class="landscapeContainer">
+    <div id="background">
+      <!-- <h1 class="title">ORPHANS OF HOPE UGANDA</h1> -->
+      <button class="titleDiscription">WE ARE MAKING A DIFFERENCE IN THE LIVES OF EVERY CHILD</button><br>
+      <button class="learnHowToVolunteer"><a href="./public/volunteerNow.html">VOLUNTEER WITH US</a></button>
+    </div>
+    <div class="flowerGirlsContainer">
+      <img id="flowerGirls" src="./public/images/flowerGirls.jpg" />
+      <h1 class="ugandanOrphanCrisisTitle">Ugandan Orphan Crisis</h1>
+      <hr class="ugandanOrphanCrisisLine" />
+      <p class="ugandaChildren">Uganda is home to approximately 2.4 million orphaned children. Uganda’s orphan crisis
+        has worsened through the
+        decades. Children in Uganda are orphaned or abandoned most often due to illness or poverty in their families,
+        frequently a combination of both. Additionally, many children may have parents who are living with HIV. The
+        death
+        of a father has been a major contributing factor for orphanhood due to gender inequality and the lack of women’s
+        right.
+      </p>
+    </div>
+    <div class="kansimeContainer">
+      <img class="kansime" src="./public/images/kansime.jpg" />
+      <p class="kansimeText">
+        As a child in Uganda, you
+        are at risk of extreme
+        poverty and have a high
+        chance of contracting
+        malaria and HIV, along with
+        the looming danger of conflict. Children continue to be left to defend themselves
+        against life’s harsh realities.
+      </p>
+    </div>
+    <!-- <div class="landscapeContainer">
     <img src="./public/images/landscape.jpg" class="landscapeImage" />
     <p class="landscapeText">
       Uganda consistently ranks as one the poorest nations in the world. Uganda is still healing in the aftermath of a
@@ -82,12 +83,12 @@
       refugee crises hosting the third-largest number of refugees in the world.
     </p>
   </div> -->
-  <div class="donateImageContainer">
-    <img class="donateImage" src="./public/images/donate.png" />
-    <!-- <p class="donateText">We need your help to change the lives of Uganda's children</p> -->
-    <button class="donateButton"><a href="./public/donate.html">Donate</a></button>
-    <button class="learnMoreButton"><a href="learnMore.html">Learn More</a></button>
-  </div>
+    <div class="donateImageContainer">
+      <img class="donateImage" src="./public/images/donate.png" />
+      <!-- <p class="donateText">We need your help to change the lives of Uganda's children</p> -->
+      <button class="donateButton"><a href="./public/donate.html">Donate</a></button>
+      <button class="learnMoreButton"><a href="learnMore.html">Learn More</a></button>
+    </div>
   </div>
   <hr class="footerLine" />
   <div class="footer">
@@ -115,6 +116,18 @@
         style="font-size:24px; color: black; margin-left: 10px"></a>
     </nav>
   </div>
+  <script>
+    function topbar() {
+      var x = document.getElementById("Topbar");
+      if (x.className === "dropdowns") {
+        x.className += " responsive";
+      } else {
+        x.className = "dropdowns";
+      }
+      console.log(x);
+    }
+  </script>
 </body>
+
 
 </html>
