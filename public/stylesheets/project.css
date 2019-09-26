@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+nav.dropdowns a.icon {
+  display: none;
+}
+
 nav.dropdowns {
   /* position: absolute; */
   background-color: white;
@@ -68,7 +72,7 @@ nav.dropdowns nav:hover a:not(:first-of-type) {
   justify-content: center;
   /* background-image: linear-gradient(white, rgba(13, 181, 187, 0.5)); */
   background-image: url("../images/3girls_test.jpg");
-  background-size: cover; 
+  background-size: cover;
   border-bottom: solid 5px navy;
 }
 
@@ -85,11 +89,13 @@ body {
 }
 
 
-#jumpingImage, .ugandaWorldImage, .redTree {
+#jumpingImage,
+.ugandaWorldImage,
+.redTree {
   height: auto;
   width: 54.6%;
   float: left;
-  border-right: solid 5px navy; 
+  border-right: solid 5px navy;
   margin-right: 10px;
 }
 
@@ -110,7 +116,8 @@ body {
   border-top: solid 5px navy;
 }
 
-#laundryImage, .cow {
+#laundryImage,
+.cow {
   height: auto;
   width: 45%;
   float: right;
@@ -334,7 +341,7 @@ p {
 }
 
 .titleDiscription {
-  position: relative; 
+  position: relative;
   color: black;
   opacity: 0.7;
   font-size: 2em;
@@ -346,7 +353,7 @@ p {
 }
 
 .learnHowToVolunteer {
-  position: relative; 
+  position: relative;
   color: black;
   opacity: 0.7;
   font-size: 2em;
@@ -511,15 +518,17 @@ nav ul li {
 
 .mamaJaneAndKidsTitle {
   font-family: 'Barlow';
-  text-align: center; 
+  text-align: center;
 }
 
 .mamaJaneAndKidsTextLine {
   border: solid 2px navy;
 }
+
 .mamaJaneAndKidsLine {
   border: solid 1px navy;
 }
+
 #mamaJane {
   width: 100%;
   height: auto;
@@ -527,7 +536,8 @@ nav ul li {
 }
 
 .mamaJaneText,
-.kinalwayHerbertText, .teacherText {
+.kinalwayHerbertText,
+.teacherText {
   bottom: -60px;
   font-family: 'Barlow';
   font-size: 1.3em;
@@ -582,7 +592,9 @@ nav ul li {
   height: auto;
 } */
 
-.ugandaText, .cowText, .redTreeText {
+.ugandaText,
+.cowText,
+.redTreeText {
   font-family: "Barlow";
   font-size: 1.3em;
   line-height: 2;
@@ -1127,14 +1139,24 @@ nav ul li {
   text-align: center;
 }
 
-.nathanImage, .poojaImage, .lilyImage, .shirImage, .lucyImage, .masonImage, .benImage, .ofekImage, .placeholderImage {
+.nathanImage,
+.poojaImage,
+.lilyImage,
+.shirImage,
+.lucyImage,
+.masonImage,
+.benImage,
+.ofekImage,
+.placeholderImage {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.ourVolunteersFirstNathanPoojaLilyText, .ourVolunteersSecondShirLucyMasonText, .ourVolunteersThirdBenOfekAlvisText {
-  display: flex; 
+.ourVolunteersFirstNathanPoojaLilyText,
+.ourVolunteersSecondShirLucyMasonText,
+.ourVolunteersThirdBenOfekAlvisText {
+  display: flex;
   flex: 1 1 0;
 }
 
@@ -1182,10 +1204,31 @@ a.nostyle::after {
   border: solid 3px navy;
 }
 
-@media screen and (max-width: 375px) {
-  nav.dropdown a {
-    width: 375px !important;
-    background-color: red !important;
+nav.dropdowns {
+  overflow: hidden;
+}
+@media screen and (max-width: 320px) {
+
+  nav.dropdowns nav.accordion a {
+    display: none;
+  }
+
+  nav.dropdowns a.icon {
+    display: block;
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  nav.dropdowns.responsive {position: relative;}
+  nav.dropdowns.responsive nav.accordion a.title {
+    float: none;
+    display: block;
+    text-align: center;
+    font-family: "Barlow Condensed";
+  }
+  nav.dropdowns {
+    text-align: center;
   }
 }
 
@@ -1203,7 +1246,12 @@ a.nostyle::after {
     line-height: 2.0em;
   }
 
-  .childrenJumpingContainer, .laundryContainer, .mamaAndKidsText, .ugandaWorldContainer, .cowContainer, .redTreeContainer {
+  .childrenJumpingContainer,
+  .laundryContainer,
+  .mamaAndKidsText,
+  .ugandaWorldContainer,
+  .cowContainer,
+  .redTreeContainer {
     width: 1280px !important;
   }
 }
@@ -1233,5 +1281,3 @@ a.nostyle::after {
     line-height: 1.8em;
   }
 }
-
-
