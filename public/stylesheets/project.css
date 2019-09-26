@@ -1207,7 +1207,8 @@ a.nostyle::after {
 nav.dropdowns {
   overflow: hidden;
 }
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
 
   nav.dropdowns nav.accordion a {
     display: none;
@@ -1219,14 +1220,18 @@ nav.dropdowns {
   }
 }
 
-@media screen and (max-width: 320px) {
-  nav.dropdowns.responsive {position: relative;}
+@media screen and (max-width: 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
+  nav.dropdowns.responsive {
+    position: relative;
+  }
+
   nav.dropdowns.responsive nav.accordion a.title {
     float: none;
     display: block;
     text-align: center;
     font-family: "Barlow Condensed";
   }
+
   nav.dropdowns {
     text-align: center;
   }
