@@ -1143,10 +1143,6 @@ a.nostyle::after {
   border: solid 3px navy;
 }
 
-nav.dropdowns {
-
-}
-
 @media screen and (max-width: 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
 
   nav.dropdowns nav.accordion a {
