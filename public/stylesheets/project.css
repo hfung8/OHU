@@ -8,10 +8,11 @@ nav.dropdowns a.icon {
   display: none;
 }
 
-nav.dropdowns {
-  /* position: absolute; */
+nav#Topbar.dropdowns {
+  height: 110px;
   background-color: white;
   width: 100%;
+  top: 0;
   border-bottom: solid 5px navy;
 }
 
@@ -21,7 +22,6 @@ nav.dropdowns nav.accordion a {
 
 nav.dropdowns a {
   font-size: 25px;
-  /* font-family: 'Barlow Condensed'; */
   position: relative;
   display: inline-block;
   width: 150px;
@@ -32,7 +32,6 @@ nav.dropdowns a {
   text-decoration: none;
   margin: auto;
   top: 25px;
-  /* border: solid 1px navy; */
 }
 
 nav.dropdowns a[href]:hover {
@@ -70,7 +69,6 @@ nav.dropdowns nav:hover a:not(:first-of-type) {
   width: 100%;
   align-items: center;
   justify-content: center;
-  /* background-image: linear-gradient(white, rgba(13, 181, 187, 0.5)); */
   background-image: url("../images/3girls_test.jpg");
   background-size: cover;
   border-bottom: solid 5px navy;
@@ -92,17 +90,11 @@ body {
 #jumpingImage,
 .ugandaWorldImage,
 .redTree {
-  height: auto;
-  width: 54.6%;
+  width: 49.79%;
   float: left;
   border-right: solid 5px navy;
   margin-right: 10px;
 }
-
-/* .jumpingText::first-letter {
-  font-size: 4em;
-  line-height: 80%;
-} */
 
 .jumpingText {
   line-height: 2;
@@ -118,16 +110,10 @@ body {
 
 #laundryImage,
 .cow {
-  height: auto;
-  width: 45%;
+  width: 49.8%;
   float: right;
   border-left: solid 5px navy;
 }
-
-/* .laundryText::first-letter {
-  font-size: 4em;
-  line-height: 80%;
-} */
 
 .laundryText {
   line-height: 2;
@@ -147,11 +133,6 @@ body {
   margin-right: auto;
 }
 
-/* .mamaAndKidsText::first-letter {
-  font-size: 4em;
-  line-height: 80%;
-} */
-
 .mamaAndKidsText {
   line-height: 2;
   font-size: 1.3em;
@@ -167,18 +148,13 @@ body {
 }
 
 .rosetteAndEvanContainer {
-  width: 1000px;
+  width: 1200px;
   margin: auto;
-  text-align: center;
-  position: relative;
 }
 
 .missionAndCoreValuesH1 {
-  margin: auto;
   text-align: center;
   font-family: 'Barlow Condensed';
-  padding: 7px;
-  border: solid 4px white;
 }
 
 .rAndEImage {
@@ -188,11 +164,13 @@ body {
 
 .rAndEMissionText {
   position: absolute;
-  top: 50px;
+  margin: auto;
+  text-align: center;
+  top: 250px;
   color: white;
   font-family: 'Barlow';
   font-size: 2em;
-  width: 100%;
+  width: 1200px;
 }
 
 .coreValuesContainer {
@@ -266,10 +244,7 @@ body {
 .donateImageContainer {
   width: 100%;
   height: auto;
-  /* display: inline-block; */
-  /* display: absolute; */
   text-align: center;
-  /* border-top: solid 1px navy; */
 }
 
 .donateImage {
@@ -319,15 +294,6 @@ body {
   background-color: white;
   font-size: 1em;
 }
-
-/* .titleDiscription {
-  color: white;
-  margin-top: 10px;
-  position: relative;
-  font-size: 2em;
-  font-family: 'Barlow Condensed';
-  opacity: 0.7;
-} */
 
 p {
   font-family: Arial, Helvetica, sans-serif;
@@ -415,7 +381,6 @@ nav nav {
   width: 155px;
   text-align: center;
   position: fixed;
-  /* top: 0; */
   left: -150px;
   transition: left 0.5s;
   opacity: 0.9;
@@ -483,6 +448,7 @@ nav ul li {
   width: 90px;
   padding: 1px;
   background-color: white;
+  height: auto;
 }
 
 .orphansOfHopeUganda {
@@ -587,46 +553,31 @@ nav ul li {
   height: auto;
 }
 
-/* .ugandaWorldImage {
-  width: 100%;
-  height: auto;
-} */
-
 .ugandaText,
 .cowText,
 .redTreeText {
   font-family: "Barlow";
   font-size: 1.3em;
-  line-height: 2;
+  line-height: 1.5;
+  height: 337px;
+  padding: 0;
+  margin: 0;
 }
-
-.ugandaWorldImage {
+.ugandaText, .cowText {
   border-bottom: solid 5px navy;
 }
-
-.redTree {
-  border-top: solid 5px navy;
+.ugandaWorldImage, .redTree, .cow {
+  height: 337px;
 }
-
 .cowContainer {
   width: 100%;
   height: auto;
 }
 
-/* .cow {
-  width: 100%;
-  height: auto;
-} */
-
 .redTreeContainer {
   width: 100%;
   height: auto;
 }
-
-/* .redTree {
-  width: 100%;
-  height: auto;
-} */
 
 .ourOrphanageTitle {
   font-family: 'Barlow Condensed';
@@ -641,13 +592,7 @@ nav ul li {
 
 .ourOrphanageText {
   font-family: "Barlow";
-  font-size: 2em;
-}
-
-.ourOrphanageText::first-letter {
-  font-size: 1.3em;
-  float: left;
-  line-height: 80%;
+  font-size: 1.8em;
 }
 
 .threeGirlsSmiling {
@@ -667,13 +612,7 @@ nav ul li {
 
 .brickBuildingText {
   font-family: "Barlow";
-  font-size: 2em;
-}
-
-.brickBuildingText::first-letter {
-  font-size: 1.3em;
-  float: left;
-  line-height: 80%;
+  font-size: 1.8em;
 }
 
 .projectsAndImpactTitle {
@@ -1205,7 +1144,7 @@ a.nostyle::after {
 }
 
 nav.dropdowns {
-  overflow: hidden;
+
 }
 
 @media screen and (max-width: 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
@@ -1216,7 +1155,7 @@ nav.dropdowns {
 
   nav.dropdowns a.icon {
     display: block;
-    padding: 50px;
+    
   }
 }
 
